@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黄金体重计算器</title>
+<style>
+*{font-size:18px;padding:5px;margin:3px}
+</style>
+</head>
+<body>
+<div>与你体重相等的黄金价值多少?</div>
+<div>让我们算一下</div>
+<div>请以千克为单位输入你的体重:</div>
+<input type="number" id="w" placeholder="输入体重kg">
+<button onclick="calc()">计算</button>
+<div id="res"></div>
+<script>
+function calc(){
+    let weight = parseFloat(document.getElementById('w').value);
+    let value = 930000 * weight;
+    let text = `与你体重价值相等的黄金价值${value.toFixed(2)}元\n你很容易价值很高\n如果黄金价格下跌\n那你就吃更多,以便让你重新达到这个价值吧!`;
+    document.getElementById('res').innerText = text;
+}
+</script>
+</body>
+</html>
