@@ -14,7 +14,7 @@ int main(void)
     scanf("%s",name);
     //用%s来处理"字符串"的输入和输出
     //这里没有&,因为数组名本身也是内存地址
-    //%s读空格就停下来
+    //%s读空格就停下来,若空格后还有内容,则会保留,影响下一次的输入
     printf("%s,what's your weight in pounds?\n",name);
     scanf("%f",&weight);
     size = sizeof(name);
