@@ -1,0 +1,22 @@
+//编写一个程序,提示用户输入名字,并执行以下操作
+//打印名字,包括双引号
+//在宽度为20的字段右端打印名字,包括双引号
+//在宽度为20的字段左端打印名字,包括双引号
+//在比姓名宽度宽3的字段中打印名字
+#include <stdio.h>
+#include <string.h>
+int main(void)
+{
+    char name[40];
+    int number;
+    printf("please enter your name:\n");
+    scanf("%s",name);
+    number = strlen(name);
+    printf("\"%s\"\n",name);
+    printf("\"%20s\"\n",name);
+    printf("\"%-20s\"\n",name);
+    printf("\"%*s\"\n",number + 3,name);
+
+    return 0;
+
+}
