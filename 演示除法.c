@@ -6,7 +6,9 @@ int main(void)
     printf("integer division : 7/4  is %d \n", 7 / 4 );
     printf("floating division: 7./4. is %1.2f", 7. / 4.);
     printf("mixed division:  7./4   is %1.2f\n",7. / 4);
-
+    //浮点数除法的结果是浮点数,整数除法的结果是整数
+    //在c中,整数除法结果的小数部分被丢弃,这一过程称为截断
+    
     return 0;
 
 }

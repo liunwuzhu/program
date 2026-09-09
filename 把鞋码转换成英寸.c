@@ -7,7 +7,7 @@ int main(void)
 
     shoe = 9.0;
     foot = SCALE * shoe + ADJUST;
-    printf("Shoe size (men's)  foot lenght\n");
+    printf("Shoe  size (men's)   foot lenght\n");
     printf("%10.1f %15.2f inches\n", shoe, foot);
 
     return 0;
