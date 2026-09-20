@@ -8,6 +8,6 @@ int main(void)
     printf("This copy of \"%s\" sells for $%.2f.\n",BOOK
         ,cost);
     printf("that percent %.0f%% of list.\n",percent);
-
+                        //%%是打印%的意思
     return 0;
 }

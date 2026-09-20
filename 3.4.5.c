@@ -9,7 +9,7 @@
 int main(void)
 {
     int32_t me32;
-    //int32_t保证32位有符号整数,普通的int取值范围不确定
+    //int32_t保证32位有符号整数,普通的int取值范围不确定,对于不同系统,有不同的范围
 
     me32 = 1234567;
     printf("first,assume int32_t is int:");

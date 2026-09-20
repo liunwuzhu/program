@@ -16,7 +16,7 @@ int main(void)
     printf("\"%20s\"\n",name);
     printf("\"%-20s\"\n",name);
     printf("\"%*s\"\n",number + 3,name);
-
+//scanf()中的%*和printf()中的%*不同,前一个读取后会丢弃,而后一个则代表为一个占位符
     return 0;
 
 }
