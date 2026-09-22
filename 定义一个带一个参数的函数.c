@@ -22,6 +22,7 @@ int main(void)
 //变量名为函数私有,意思是在不同的函数中可以使用相同的函数名;
 
 void pound(int n)
+//必要情况需要需要在()内加入参数
 {
     while (n-- > 0)
     printf("#");
