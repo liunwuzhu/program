@@ -1,3 +1,4 @@
+//依赖外部循环的嵌套循环
 #include <stdio.h>
 int main(void)
 {
