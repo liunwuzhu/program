@@ -4,6 +4,7 @@ int main(void)
 {
     const int ROWS = 6;
     const int CHARS = 6;
+    //良好的写作习惯,可以将代数写成常量
     int row;
     char ch;
 

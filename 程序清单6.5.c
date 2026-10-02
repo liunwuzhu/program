@@ -8,7 +8,7 @@ int main(void)
     printf("What is the value of pi?\n");
     scanf("%lf",&response);
     while (fabs(response - ANSWER) > 0.0001)
-    //fabs() 是取结果的绝对值
+    //fabs() 是取结果的绝对值,需要加头文件#include <math.h>
     {
         printf("Try again!\n");
         scanf("%lf",&response);
