@@ -8,6 +8,7 @@ int main(void)
     scanf("%c",&n);
     i = n;
     i = i - 64;
+    //涉及ASCII码可以记住A是65
     for (m = 1; m <= i ; m++)
     {
         for(h = 1;h <= (i - m); h++)
@@ -24,4 +25,5 @@ int main(void)
         }
         printf("\n");
     }
+    //将要执行的任务划成一个个独立的部分和区块,观察想要达到的效果都与哪些变量有关
 }
