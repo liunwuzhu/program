@@ -12,7 +12,7 @@ int main(void)
         int h = 0;
         int l = number[h];
         int g = number[h];
-        int min = -1;                 
+        int min = -1;                  
         do
         {
             if( l > g )
